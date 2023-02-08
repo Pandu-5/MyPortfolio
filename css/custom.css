@@ -614,7 +614,7 @@ strong {
 .clients-image {
   display: block;
   max-width: 100px;
-  margin: auto;
+  margin: 5px;
   transition: all ease 0.2s;
 }
 
@@ -824,6 +824,39 @@ strong {
 }
 
 .projects-tag {
+  font-size: var(--menu-font-size);
+  font-weight: var(--font-weight-medium);
+  color: var(--secondary-color);
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+
+
+/*---------------------------------------
+  COMPANY              
+-----------------------------------------*/
+.company-thumb {
+  background: var(--section-bg-color);
+  border: 2px solid var(--white-color);
+  border-radius: var(--border-radius-medium);
+  position: relative;
+  overflow: hidden;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  padding: 40px;
+  transition: all ease 0.5s;
+  cursor: pointer;
+}
+
+.company-thumb:hover {
+  border-color: var(--secondary-color);
+}
+
+.company-title {
+  margin-bottom: 20px;
+}
+
+.company-tag {
   font-size: var(--menu-font-size);
   font-weight: var(--font-weight-medium);
   color: var(--secondary-color);
