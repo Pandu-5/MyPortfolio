@@ -109,6 +109,25 @@ img {
   overflow: hidden;
 }
 
+*::selection {
+  background: #1261f3;
+  color: #fff;
+}
+
+html::-webkit-scrollbar{
+  width:0.8rem;
+}
+
+html::-webkit-scrollbar-track{
+  width: 0.8rem;
+  border-radius: 10px;
+}
+
+html::-webkit-scrollbar-thumb{
+  background:linear-gradient(#7a6ad8, #9a8bef);
+  border-radius: 6px;
+}
+
 /* 
 ---------------------------------------------
 Global Styles
